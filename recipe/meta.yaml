@@ -1,5 +1,5 @@
 {% set name = "aioserial" %}
-{% set version = "1.1.4" %}
+{% set version = "1.2.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: c705368cf5660721b05e75150488f7647f9888925f48a6af14a738a0e3958152
+  sha256: 3fe60dbb7b4777c9467deb044c0b05fa7f27e602775578dee07fd215df335cbc
 
 build:
   number: 0
